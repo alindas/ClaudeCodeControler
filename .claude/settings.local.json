@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rustc --version:*)",
+      "Bash(cargo --version:*)",
+      "Bash(rustup update:*)",
+      "Bash(powershell:*)",
+      "Bash(curl:*)",
+      "Bash(npx @tauri-apps/tauricon:*)",
+      "Bash(xxd:*)",
+      "Bash(claude:*)",
+      "Bash(npx @anthropic-ai/claude-code:*)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
