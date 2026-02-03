@@ -35,6 +35,7 @@ html, body, #app {
 /* Sidebar */
 .sidebar {
   width: 240px;
+  flex-shrink: 0;
   background: var(--bg-secondary);
   border-right: 1px solid var(--border);
   display: flex;
@@ -94,6 +95,7 @@ html, body, #app {
 /* Main Content */
 .main {
   flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
